@@ -1,58 +1,55 @@
-import { 
-  FileText, 
-  Search, 
-  Tags, 
-  Eye, 
-  EyeOff,
-  Smartphone, 
-  Laptop,
+import {
+  FileText,
+  Search,
+  Tags,
+  Eye,
   BookOpen,
   History,
-  SunMoon,
-  AlertCircle
+  MessageSquare,
+  Bot
 } from "lucide-react";
 
 export function FeatureSection() {
   const features = [
     {
-      icon: <FileText className="h-10 w-10 text-primary mb-4" />,
-      title: "Markdown Editor",
-      description: "Create and edit documents with a powerful Markdown editor including live preview."
+      icon: <MessageSquare className="h-10 w-10 text-primary mb-4" />,
+      title: "Chat With Your Documents",
+      description: "Ask questions in plain language and get answers grounded in your own documents, with the source documents cited."
+    },
+    {
+      icon: <Bot className="h-10 w-10 text-primary mb-4" />,
+      title: "Multi-Agent Assistant",
+      description: "A supervisor routes each request to a retriever agent that finds information or a tagger agent that organizes your documents, then a responder writes the reply."
     },
     {
       icon: <Search className="h-10 w-10 text-primary mb-4" />,
-      title: "Advanced Search",
-      description: "Find your documents instantly with our fuzzy matching and relevance ranking search engine."
+      title: "Semantic Search",
+      description: "Search by meaning, not just keywords. Results are ranked by semantic similarity, and exact title matches are included."
     },
     {
       icon: <BookOpen className="h-10 w-10 text-primary mb-4" />,
-      title: "PDF Extraction",
-      description: "Extract and index text from PDF documents for seamless integration into your knowledge base."
+      title: "PDF Upload & Extraction",
+      description: "Upload PDFs to extract their text and index it, so you can search and chat with them like any other document."
+    },
+    {
+      icon: <FileText className="h-10 w-10 text-primary mb-4" />,
+      title: "Markdown Editor",
+      description: "Write documents in Markdown with live preview and auto-save as you type."
     },
     {
       icon: <Tags className="h-10 w-10 text-primary mb-4" />,
-      title: "Tag Organization",
-      description: "Organize your documents with a flexible tagging system for easy categorization and filtering."
+      title: "Tags & AI Tagging",
+      description: "Organize documents with tags yourself, or ask the AI assistant to suggest and apply tags for you."
     },
     {
       icon: <Eye className="h-10 w-10 text-primary mb-4" />,
-      title: "Visibility Control",
-      description: "Choose which documents are public or private with granular visibility controls."
-    },
-    {
-      icon: <Smartphone className="h-10 w-10 text-primary mb-4" />,
-      title: "Responsive Design",
-      description: "Access your knowledge base from any device with our fully responsive interface."
+      title: "Public or Private",
+      description: "Keep a document private to you or make it public. Only the author can edit, delete, or tag it."
     },
     {
       icon: <History className="h-10 w-10 text-primary mb-4" />,
       title: "Version History",
-      description: "Track changes to your documents with automatic versioning and timestamps."
-    },
-    {
-      icon: <SunMoon className="h-10 w-10 text-primary mb-4" />,
-      title: "Light & Dark Mode",
-      description: "Switch between light and dark themes to reduce eye strain and work comfortably any time."
+      description: "Snapshots are saved automatically as you edit, so the author can review earlier versions of a document."
     }
   ];
 
@@ -60,9 +57,9 @@ export function FeatureSection() {
     <section id="features" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Powerful Features</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">What DocuMind Does</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            DocuMind combines advanced document management with powerful search capabilities
+            A personal knowledge base you can write in, search by meaning, and talk to
           </p>
         </div>
 
