@@ -9,7 +9,7 @@ export function FooterSection() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-xl font-bold mb-4">DocuMind</h3>
             <p className="text-muted-foreground max-w-md">
-              AI-powered knowledge base for smarter document management, search, and organization.
+              A personal knowledge base with Markdown and PDF documents, semantic search, and a multi-agent AI assistant that answers from your own content.
             </p>
             <div className="flex space-x-4 mt-6">
               <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
@@ -28,39 +28,39 @@ export function FooterSection() {
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/features" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="/#features" className="text-muted-foreground hover:text-foreground transition-colors">
                   Features
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Pricing
+                <Link href="/search" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Search
                 </Link>
               </li>
               <li>
-                <Link href="/docs" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Documentation
+                <Link href="/chat" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Ask AI
                 </Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Account</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
-                  About
+                <Link href="/login" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Sign In
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Privacy
+                <Link href="/register" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Sign Up
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Terms
+                <Link href="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Dashboard
                 </Link>
               </li>
             </ul>
