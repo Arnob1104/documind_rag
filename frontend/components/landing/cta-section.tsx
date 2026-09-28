@@ -7,10 +7,10 @@ export function CTASection() {
     <section className="py-20 bg-primary/5">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          Ready to organize your knowledge?
+          Ready to talk to your documents?
         </h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-          Start building your AI-powered knowledge base today and unlock the full potential of your documents.
+          Create an account, add your notes and PDFs, and start asking questions. Answers come from your own knowledge base, with sources you can check.
         </p>
         <Button size="lg" asChild className="group">
           <Link href="/register">
