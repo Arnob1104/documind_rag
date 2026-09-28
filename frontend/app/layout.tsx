@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'DocuMind - AI Knowledge Base',
-  description: 'Store, search and manage your documents with AI-powered insights',
+  description: 'Write and upload documents, search them by meaning, and chat with an AI assistant that answers from your own knowledge base',
 };
 
 export default function RootLayout({
